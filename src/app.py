@@ -46,7 +46,6 @@ SMS_PAYLOAD_FIELDS = [
     {"field": "attachments", "type": list[str], "required": False},
 ]
 SMS_OUTBOUND_URL = "https://www.provider.app/api/messages"
-SMS_OUTBOUND_URL = "https://webhook.site/957367cc-5c8d-44c8-a27e-71ecb2098747"
 
 EMAIL_PAYLOAD_FIELDS = [
     {"field": "from", "type": str, "required": True},
@@ -57,7 +56,6 @@ EMAIL_PAYLOAD_FIELDS = [
     {"field": "attachments", "type": list[str], "required": False},
 ]
 EMAIL_OUTBOUND_URL = "https://www.mailplus.app/api/email"
-EMAIL_OUTBOUND_URL = "https://webhook.site/957367cc-5c8d-44c8-a27e-71ecb2098747"
 
 
 # routes
